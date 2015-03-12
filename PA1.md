@@ -31,7 +31,7 @@ hist(fitnessByDay$steps,
                         xlab = "Number of steps")
 ```
 
-![](./PA1_template_files/figure-html/unnamed-chunk-2-1.png) 
+![](./PA1_files/figure-html/unnamed-chunk-2-1.png) 
 
 ```r
 # caclulate the mean and median, round to one decimal place
@@ -54,7 +54,7 @@ plot(fitnessByInterval, xlab = "Five mintute interval",
                         type = "l")
 ```
 
-![](./PA1_template_files/figure-html/unnamed-chunk-3-1.png) 
+![](./PA1_files/figure-html/unnamed-chunk-3-1.png) 
 
 ```r
 # find the maximum number of steps
@@ -106,7 +106,7 @@ hist(fitnessByDay_imputed$steps,
                         xlab = "Number of steps")
 ```
 
-![](./PA1_template_files/figure-html/unnamed-chunk-5-1.png) 
+![](./PA1_files/figure-html/unnamed-chunk-5-1.png) 
 
 ```r
 #calculate the mean and median
@@ -163,7 +163,7 @@ plot(fitnessByInterval_weekday, xlab = "Five mintute interval",
                         type="l")
 ```
 
-![](./PA1_template_files/figure-html/unnamed-chunk-6-1.png) 
+![](./PA1_files/figure-html/unnamed-chunk-6-1.png) 
 
 In general, there is more activity on weekends. Activity starts earlier on 
 weekdays, but is more subdued throughout the day. Activities end later on 
